@@ -1,0 +1,65 @@
+
+# Dependencies
+node_modules/
+
+# Build - Vite / PWA
+dist/
+dist-ssr/
+
+# TypeScript
+*.tsbuildinfo
+
+# Tests - Vitest
+coverage/
+
+# Cache
+.vite/
+.eslintcache
+.cache/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Cloudflare
+.wrangler/
+.dev.vars*
+
+# Supabase CLI
+supabase/.temp/
+supabase/.branches/
+
+# Capacitor - Android
+android/.gradle/
+android/**/build/
+android/local.properties
+android/captures/
+android/.cxx/
+android/.externalNativeBuild/
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# Capacitor - iOS
+ios/**/Pods/
+ios/**/build/
+ios/**/DerivedData/
+**/xcuserdata/
+*.xcuserstate
+
+# Editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Operating systems
+.DS_Store
+Thumbs.db
